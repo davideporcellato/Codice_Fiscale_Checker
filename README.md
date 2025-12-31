@@ -1,5 +1,16 @@
 # Codice Fiscale Checker
 
+## Disclaimer
+
+All personal data contained in this repository are **completely fake and randomly generated**.
+
+- Names, surnames, dates of birth and places of birth are synthetic examples created only to test the checker.
+- The Codice Fiscale values are either:
+  - generated examples that are structurally valid, or
+  - intentionally invalid samples to exercise the validation logic.
+
+They are **not** associated with any real person.
+
 As *Agenzia delle Entrate* mostly checks only the length and basic plausibility of a Codice Fiscale, this project goes further.
 
 **Based on personal data (name, surname, gender, date and place of birth), it computes a confidence score that your Codice Fiscale is consistent with the physical person data.**
